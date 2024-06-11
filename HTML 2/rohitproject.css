@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* NAVBAR */
+
+/* BOX 1*/
+.navbar{
+    height : 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+}
+.navlogo{
+    height: 55px;
+    width: 100px;
+}
+.logo{
+   background-image: url("ama_logo.png");
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+
+/* BOX 2*/
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* BOX 3*/
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 39px;
+    border-radius: 4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f08804;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   font-size: 1.3rem;
+   color: #0f1111;
+}
+.navsearch:hover{
+    border: 2px solid #f08804;
+}
+
+/* BOX 4*/
+
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-lang{
+    border: none;
+    color: #f3f3f3;
+    background-color: #0f1111;
+}
+
+/* BOX 3 and 4*/
+span{
+    font-size: 10px;
+}
+.account{
+    font-weight: 50px;
+    font-size: 13px;
+}
+
+/* box 5*/
+#cart-2{
+    color: #f3f3f3;
+    font-size: 20px;
+}
+/*-- ------------------------------------------------------------------------------------------- --> */
+.head-two{
+    border-top: 1px;
+    height: 25px;
+    background-color:#1f2525;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 60px;
+    width: 100%;
+   
+}
+.head-opt p{
+display: inline;
+margin-left: 10px;
+}
+
+.head-opt {
+    width: 70%;
+    font-size: 0.90rem;
+  
+}
+.head-three {
+    font-weight: 7000px;
+}
+
+/*-- ------------------------------------------------------------------------------------------- --> */
+
+.hero-sec{
+    background-size:cover;
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.hero-mess {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman';
+    height: 28px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 250px;
+}
+a{
+    text-decoration: none;
+}
+
+ /* boxes  */
+ .s{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+ }
+
+ .box{
+    height: 250px;
+    width: 23%;
+    background-color:white ;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+ }
+ 
+ .bgimgone{
+    height: 210px;
+    background-size: cover;
+    margin: 5px 10px 10px 10px;
+ }
+ .box-content{
+   margin-left: 3rem;
+ }
+ h5{
+    text-align: center;
+ }
+ #text{
+    text-decoration: none;
+    text-align: right;
+ }
+
+ /*-- ------------------------------------------------------------------------------------------- --> */
+ 
+ .movie{
+    height: 230px;
+    background-color: #e2e7e6;
+    padding-left: 20px;
+    margin-left : -20px;
+ }
+
+ .img2{
+    display : flex;
+    justify-content :space-evenly;
+    margin-right: 20px;
+ }
+ 
+ .border1{
+    height: 160px;
+    width: 130px;
+    background-color:  white;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+ }
+ .movie2{
+      height: 140px;
+      width: 120px;
+     background-size: cover;
+
+ }
+ 
+ .word{
+    padding-top: 20px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+ }
+ 
+  /*-- ------------------------------------------------------------------------------------------- --> */
+
+.signin2{
+    background-color: #e2e7e6;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    height: 150px;
+    padding-top: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+   }
+
+.butt , .wording{
+text-align: center;
+margin-top: 10px;
+
+} 
+
+.butt button {
+    width: 210px; 
+    height: 30px;
+     background-color: #f08804;
+}
+
+.signin3{
+    height: 170px;
+    background-color: #1f2525;
+}
+/*---------------------------------------------------------------------------------------------------*/
+
+.p{
+    background-color: #1f2525;
+    font-weight: 300;
+    text-align: center;
+    color: #cccccc;
+    height: 20px;
+}
+
+.foot{
+    height: 250px;
+    background-color: #0f1111;
+    color: white;
+    padding: 25px 0px 0px 25px;
+}
+.about{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.border-1{
+    border: 1px solid  white;
+    border-radius: 5px;
+    font-weight: 100;
+}
+/*---------------------------------------------------------------------------------------------------*/
+
+.contact{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.contactus{
+   display: flex;
+   padding-top: 15px;
+   padding-left: 20px;
+}
+.img3{
+    background-image: url("ama_logo.png");
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left:960px;
+    margin-top: -30px;
+}
+.line{
+    margin-top: 6px;
+    margin-left: -18px;
+}
+.last{
+    height: 20px;
+    background-color: #1f2525;
+    margin-left: -30px;
+    color: #cccccc;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+  
+}
+h6{
+    color: #006B88;
+    padding-left: 200px;
+}
+
+footer{
+    padding-top: 20px;
+}
+.foot{
+    height: 160px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
